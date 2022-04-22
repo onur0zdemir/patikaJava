@@ -16,20 +16,20 @@ public class NotHesaplama {
         System.out.print("Kimya notu: ");
         kimya = input.nextInt();
 
-        System.out.print("Türkçe notu: ");
+        System.out.print("TÃ¼rkÃ§e notu: ");
         turkce = input.nextInt();
 
         System.out.print("Tarih notu: ");
         tarih = input.nextInt();
 
-        System.out.print("Müzik notu: ");
+        System.out.print("MÃ¼zik notu: ");
         muzik = input.nextInt();
 
         int notlarinToplami = (mat + fizik + kimya + turkce + tarih + muzik);
         double notlarinOrtalamasi = notlarinToplami / 6;
-        System.out.println("Notların Ortalaması: " + notlarinOrtalamasi);
+        System.out.println("NotlarÄ±n OrtalamasÄ±: " + notlarinOrtalamasi);
 
-        String gectiKaldi = (notlarinOrtalamasi > 60) ? "Geçti" : "Kaldı";
+        String gectiKaldi = (notlarinOrtalamasi > 60) ? "GeÃ§ti" : "KaldÄ±";
         System.out.println(gectiKaldi);
 
 
